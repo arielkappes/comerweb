@@ -1,129 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body class="bgGaleria">
-    <header class="areaInicio">
-        <img class=logo src="asset/iconos/logosf.png" alt="Espacio Inteligente">
-        <nav class="navbar nav nav-underline navbar-expand-lg style="background-color: #fafafa;">
-            <div class="container-fluid">
-            <a class="navbar-brand fs-3 fst-italic" href="#">ComerWEB</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../page/productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../page/contacto.html">Contacto</a>
-                </li>
-                </ul>
-                <div class="container-fluid">
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <header class="areaInicio justify-content-evenly p-3">
+        <img class=logo src="../asset/iconos/logosf.png" alt="Espacio Inteligente">
+        <nav class="navbar nav nav-underline navbar-expand-lg ">
+            <div class=" container-fluid">
+                <a class="navbar-brand fs-4 fst-italic" href="../index.html">ComerWEB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
             </div>
         </nav>
     </header>
-    <a class="tienda" href=""> Tienda </a>
-
-</header>
-
-<section class="banner">
-    <h1>Productos</h1>
-    <a class="tienda" href=""> Explorar </a>
-</section>
-
-<!-- SECCION CURSOS -->
-
-<main class="contenedorCursos">
-
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/escritorio (1).png" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
+    <section class="banner">
+    </section>
+    <div class="container-fluid p-2">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
     </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/escritorio (11).webp" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/escritorio (34).webp" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/galproductos.jpg (1).jpg" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/iluminacion/ilucolgante1.jpg" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/iluminacion/iluminacion (11).jpg" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/escritorio (14).webp" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-    <div class="arti">
-        <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
-        <h3 class="articulo">MUEBLE</h3>
-        <p class="artDescripcion">especificar rubro</p>
-        <p class="precio"> $100 </p>
-        <button class="artBtn"> Comprar </button>
-    </div>
-
-
-    </div>
-
-
-
-</main>
-
-
-<div>
-    <img class="logoWhatsapp" src="../asset/iconos/whatsapp.png" alt="Logo de whatsapp">
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <main class="contenedorProductos">
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (1).png" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (11).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (34).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/galproductos.jpg (1).jpg" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/iluminacion/ilucolgante1.jpg" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/iluminacion/iluminacion (11).jpg" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (14).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        <div class="arti">
+            <img class="artImagen" src="../asset/galeriaprod/escritorio (30).webp" alt="">
+            <h3 class="articulo">MUEBLE</h3>
+            <p class="artDescripcion">especificar rubro</p>
+            <p class="precio"> $100 </p>
+            <button class="artBtn"> Comprar </button>
+        </div>
+        </div>
+    </main>
+    <div>
+        <img class="logoWhatsapp" src="../asset/iconos/whatsapp.png" alt="Logo de whatsapp">
+        <div>
+            <div class="container-fluid">
+                <div class="row p-4 bg-dark text-white">
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h3 mb-2">comerWEB</p>
+                        <img src="../asset/iconos/logosf.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h5 mb-2">Productos</p>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Mobiliario SMART</a>
+                        </div>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Iluminacion LED</a>
+                        </div>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Accesorios de Escritorio</a>
+                        </div>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Mobiliario Minimalista</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h5 mb-2">Links</p>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="nosotros.html">Nosotros</a>
+                        </div>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Terminos & Condiciones</a>
+                        </div>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Politicas de Devolucion</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h5 mb-2">Redes Sociales y Contacto</p>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Instagram</a>
+                        </div>
+                        <div>
+                            <a class="text-secondary text-decoration-none" href="">Whatsapp</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="text-white text-center">COPYRIGHT - Todos los Derechos Reservados - 2024</p>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
 </body>
 </html>
