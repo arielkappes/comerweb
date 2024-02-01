@@ -1,26 +1,15 @@
+
 /*fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/*colores potenciales
-.color1 {color: #2b2115;}
-.color2 {color: #492f30;}
-.color3 {color: #765d4e;}
-.color4 {color: #a99375;}
-
-.color2 {color: #3e3d3c;}
-.color3 {color: #b5907d;}
-.color4 {color: #bcb88d;}
-.color5 {color: #e0e0c5;}
-*/
-
 
 .fdoInicial{
-    font-family: 'Roboto', sans-serif;
-    background-image: url('../asset/fondos/fondo1.jpg');
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../asset/fondos/trama_black.jpg');
     width: 100%;
-    height: 800px;
-    background-color: rgb(105, 109, 110);
-    background-size: contain; 
+    height: 860px;
+    background-color: rgb(59, 61, 62);
+    background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
 }
@@ -33,16 +22,6 @@
     background-size: 500%; 
     animation: fanimado 8s infinite;
 }
-
-.bgNosotros{
-    width: 100%;
-    height: 50rem;
-    background-image: linear-gradient(135deg, white, gray,);
-    font-family: 'Roboto', sans-serif;
-    background-size: 500%;
-}
-
-
 @keyframes fanimado{
     0%{
         background-position: 0% 50%;
@@ -55,18 +34,35 @@
     }
 }
 
-.banner{
-    padding: 1.25rem;
-    margin-right: 1.25rem;
-    color: #d4cfcf;
+.bgNosotros{
+    background-image: url(../asset/fondos/trama_gris.jpg);
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: repeat; 
 }
 
 .bgContactos{
-    background-image: url(../asset/fondos/trama_gris.jpg)
+    background-image: url(../asset/fondos/trama_black.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+}
+.bgNovedades{
+    background-image: url(../asset/fondos/trama_black.jpg);
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+}
+.banner{
+    padding: 1.25rem;
+    margin-right: 1.25rem;
+    color: #6e5656;
 }
 
-.bgNovedades{
-    background-color: rgba(2, 29, 40, 0.652) ;
+.imgnos{
+    position: relative;
+    width: 100%;
+    
 }
 
 
@@ -78,16 +74,49 @@ header{
     border-radius: 5px 20px 60px;
 }
 
+.txth1{
+    margin:.625rem .625rem;
+    padding-left: 10rem;
+    font-size:larger;
+    text-align: right;
+    color: #0a0809;
+    font-weight: bold;
+    }
+
+.txth12{
+        margin:3px 10px 1px 20px;
+        padding-left: 80px;
+        font-size:larger;
+        text-align: right;
+        color: #0a0809;
+        font-weight: bold;
+        }
+
+.txt13{
+    color: rgb(26, 5, 4);
+    text-align: center;
+    font-size: larger;
+    }
+
+.txt14{
+    color: rgb(96, 19, 131);
+    text-align: center;
+    font-size: larger;
+        }
+
 .logo{
     width: 4rem;
     height: 4rem;
 }
 
-nav ul li a{
-    padding: 2px 7px 2px 7px;
-    border: 1px solid rgba(48, 63, 79, 0.555);
-    border-radius: 5px 20px 60px;
-    text-decoration: none;
+nav
+    ul 
+        li 
+            a{
+                padding: 2px 7px 2px 7px;
+                border: 1px solid rgba(48, 63, 79, 0.555);
+                border-radius: 5px 20px 60px;
+                text-decoration: none;
 }
 
 .areaInicio{
@@ -97,13 +126,6 @@ nav ul li a{
     border-radius: 10px 30px 10px 60px;
 }
 
-.logoWhatsapp {
-    width: 150px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-}
 
 .logoWhatsapp {
     width: 75px;
@@ -170,6 +192,7 @@ nav ul li a{
     grid-column-start: 2;
     grid-column-end: 4;
     border-radius: 20px 50px;
+    opacity: 75%;
 }
 
 .mobSmart:hover{
@@ -234,13 +257,6 @@ nav ul li a{
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
 .container-form{
     padding: .625rem;
     width: 100%;
@@ -269,11 +285,16 @@ nav ul li a{
     color: black;
     font-weight: 700;
 }
-.container-form a i{
+.container-form 
+    a 
+        i{
     color: rgb(95, 59, 18);
     margin-right: 10px;
 }
-.container-form form .campo, textarea{
+.container-form 
+    form 
+        .campo 
+            textarea{
     width: 100%;
     padding: 15px 10px;
     font-size: 16px;
@@ -282,13 +303,16 @@ nav ul li a{
     border-radius: 3px;
     outline: 0px;
 }
-.container-form form textarea{
+.container-form
+    form 
+        textarea{
     max-width: 530px;
     min-width: 530px;
     min-height: 140px;
     max-height: 150px;
 }
-.container-form .btn-enviar{
+.container-form 
+    .btn-enviar{
     padding: 15px;
     font-size: 16px;
     border: none;
@@ -298,7 +322,8 @@ nav ul li a{
     border-radius: 3px;
     transition: all 300ms ease;
 }
-.container-form .btn-enviar:hover{
+.container-form 
+    .btn-enviar:hover{
     background: rgb(95, 59, 18);
 }
 
