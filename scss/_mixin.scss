@@ -1,0 +1,9 @@
+@mixin nav{
+    text-decoration: none;
+}
+@mixin Bgpage{
+    background-image: url(../asset/fondos/trama_black.jpg);
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+}
